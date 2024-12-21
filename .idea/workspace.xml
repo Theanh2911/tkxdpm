@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d589c2d7-7fc4-4841-aedd-d386492bd53c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PlaceOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PlaceRushOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ViewCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/cart/CartMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/db/AIMSDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/invoice/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/media/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/media/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/media/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/media/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/order/OrderMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/order/entities/DetailResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/order/entities/RefundResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/order/entities/RefundTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/payment/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/payment/PaymentTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/payment/RefundTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/payment/TransactionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/shipping/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/user/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ApplicationProgrammingInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Configs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/MyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/enums/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/resources/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/resources/vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/delivery_methods_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/details_order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/media_cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/media_home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/media_invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/media_order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/payment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/popup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/result.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/shipping.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/fxml/splash.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/delivery_methods_form.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/details_order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/media_cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/media_home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/media_invoice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/media_order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/order.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/payment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/popup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/result.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/shipping.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/signin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/views/fxml/splash.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Theanh2911&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DevWithMe0408/TKXDPM.VP.20241.07.git&quot;,
+    &quot;accountId&quot;: &quot;c30cde3f-f272-48ff-a27d-f0dff2b1d0e7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qImPVcnzdXkVOB7ecleHrOOX8c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TheAnh20205199&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Connext-Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\TKXDPM.VP.20241.07" />
+      <recent name="G:\TKXDPM.VP.20241.07\src\main\java\view\fxml" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d589c2d7-7fc4-4841-aedd-d386492bd53c" name="Changes" comment="" />
+      <created>1734358439913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734358439913</updated>
+      <workItem from="1734358441003" duration="2286000" />
+      <workItem from="1734442200950" duration="5204000" />
+      <workItem from="1734520265585" duration="123000" />
+      <workItem from="1734525879520" duration="293000" />
+      <workItem from="1734617333429" duration="3483000" />
+      <workItem from="1734704440720" duration="257000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
